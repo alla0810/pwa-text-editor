@@ -36,12 +36,16 @@ GIVEN a text editor web application
 
 ## Installation on your local machine
 After downloading from GitHub, you can run this program on your local machine by following the procedure below:
-1. From a terminal, log into your mySQL account by using `mysql -u ${your login name} -p`.
-2. Inside logged mySQL terminal, type `source ${downloaded-application-path}/db/schema.sql`.
-3. Open another terminal to run javascript e-commerce back-end server application.
-4. Run `npm run seed` to seed data. Seed data create 5 categories, 5 product and 8 tags. 
-5. Run `nodemon server.js` to run backend server on your local machine.
-6. From Insomnia, send Restful API queries.
+1. From a terminal, run `npm install` to install necessary packages.
+2. Run `npm run start:dev` to run server on your `localhost:3000` port.
+3. Open a brower and goto `localhost:3000` url.
+4. You can use JEST on your local machine. 
+
+## Access public JEST domain
+You can access public JEST domain from the following url:
+https://j-a-t-e-8d4l.onrender.com/
+
+After installation, you can use JATE without internet connection.
 
 ## Technologies used
 1. Express.js (https://expressjs.com/)
@@ -62,12 +66,11 @@ After downloading from GitHub, you can run this program on your local machine by
   * Author: Kyosook Shin
   * Author's Email: kyosook.shin@gmail.com  
   * GitHub: https://github.com/alla0810/pwa-text-editor
+  * Deployed at: https://j-a-t-e-8d4l.onrender.com/
 
 
 ## Screenshot  
 
-<img src='./images/screen1.png' width="800">  
 <img src='./images/screen2.png' width="800">
 <img src='./images/screen3.png' width="800">  
-<img src='./images/screen4.png' width="800">  
-<img src='./images/screen5.png' width="800">  
+<img src='./images/screen1.png' width="800">  
